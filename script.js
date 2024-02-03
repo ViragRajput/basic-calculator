@@ -1,7 +1,8 @@
+// Initialize the display value as an empty string
 let displayValue = '';
 
 /**
- * Append the clicked button value to the display
+ * Function to append the clicked button value to the display
  *
  * @param {type} value - description of parameter
  * @return {type} undefined
@@ -9,36 +10,40 @@ let displayValue = '';
 function appendToDisplay(value) {
     // Append the clicked button value to the display
     displayValue += value;
+    // Update the display with the current value
     updateDisplay();
 }
 
 /**
- * Clear the display.
+ * Function to clear the display
  *
  */
 function clearDisplay() {
     // Clear the display
     displayValue = '';
+    // Update the display (which will now be empty)
     updateDisplay();
 }
 
 /**
- * Evaluate and display the result or handle errors.
+ * Function to calculate and display the result or handle errors.
  */
 function calculateResult() {
     try {
-        // Evaluate and display the result
+        // Evaluate the mathematical expression and convert to string
         displayValue = eval(displayValue).toString();
+        // Update the display with the result
         updateDisplay();
     } catch (error) {
-        // Handle errors (e.g., division by zero)
+        // Handle errors, for example, division by zero
         displayValue = 'Error';
+        // Update the display with the error message
         updateDisplay();
     }
 }
 
 /**
- * Update the display with the current value
+ * Function to update the display with the current value
  *
  * @param {} 
  * @return {} 

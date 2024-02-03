@@ -16,7 +16,7 @@ This is a simple calculator project built using HTML, CSS, and JavaScript. The c
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/viragrajput/basic-calculator.git
+    git clone https://github.com/ViragRajput/basic-calculator.git
     ```
 
 2. Open the `index.html` file in a web browser.

@@ -54,6 +54,9 @@ This is a simple calculator project built using HTML, CSS, and JavaScript. The c
 3. Press the Clear (C) button to reset the display.
 4. Press the Equal (=) button to calculate and display the result.
 
+## Note
+This is practice project for learning how to use JavaScript in real life projects.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

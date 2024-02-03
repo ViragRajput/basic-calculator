@@ -55,7 +55,7 @@ This is a simple calculator project built using HTML, CSS, and JavaScript. The c
 4. Press the Equal (=) button to calculate and display the result.
 
 ## Note
-This is practice project for learning how to use JavaScript in real life projects.
+This project serves as a hands-on practice for applying JavaScript concepts in real-world scenarios. It provides a practical opportunity to reinforce your understanding of JavaScript by implementing a functional and interactive calculator application. Through this project, you can gain experience in event handling, DOM manipulation, error handling, and more. Feel free to explore, modify, and expand upon the code to deepen your JavaScript skills and build a foundation for future web development endeavors.
 
 ## License
 
